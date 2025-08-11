@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body{
+
+    font-family: "Jost", sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Monstserrat',sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+p{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+.r-btn{
+    padding: 5px 20px;
+    background-color: #EE8683 !important;
+    color: white !important;
+}
+.r-h{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* navbar */
+nav .r-nav{
+    background: transparent;
+    padding: 10px 0;
+    transition: .5s all;
+    
+}
+nav{
+    position: fixed;
+    
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+nav .navbar-nav li a{
+    color: rgb(16, 16, 16) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    
+    font-family: 'Nunito',sans-serif;
+}
+nav .navbar-nav li{
+    margin-left: 15px;
+
+}
+nav.r-nav.sticky{
+    color: #000;
+  background-color: rgb(112, 112, 112);
+    padding: 1px 0;
+    box-shadow: 0 1px 8px 3px rdge(0,0,0,0,05);
+    transition: .5s all ease-in-out; 
+}
+
+/* header  */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(110, 106, 106, 0.5),rgba(92, 90, 90, 0.5)), url('./portfolio-image/mini-profile-bg-02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 52px;
+}
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.content-box p{
+    color: #ffffff;
+}
+
+/* About ME */
+.r-p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social-icons li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.social-icons li a:hover{
+    color: #ffffff;
+    background-color: #000;
+}
+.social-icons li {
+   
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+/* Skills */
+
+.exp-class .progress{
+    height: 20px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: #ee8683 !important;
+
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* project section */
+
+
+.bg-sec{
+    background-color: #ecf5fc;
+}
+
+
+
+.card:hover .image-hover-text{
+  opacity: 1;
+  transition: ease-in-out;
+  color: #000000;
+  
+}
+.card:hover .anime{
+  opacity: 0.3;
+  transition: ease-in-out;
+ 
+}
+.card:hover #anime-name{
+    display: none;
+}
+
+.anime{
+    border-radius: 1px;
+}
+
+ .image-hover-text{
+   
+   color: aliceblue;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+  display: inline-block;
+ overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 80%;
+}
+
+/* project to me */
+.card,.card-header{
+    background-color: #ffffff !important;
+}
+.card-header{
+    border: none !important;
+}
+
+.project-class .card-header{
+    font-size: 50px;
+}
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #e65f78;
+}
+
+/* test class */
+.test-class .test-item{
+    max-width: 500px;
+    margin: 50px auto;
+
+}
+
+.test-class .test-item .test-img{
+    width: 50px;
+    height: 50px;
+}
+
+/* contact */
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: #5da3ba;
+    height: 100px;
+}
+footer ul li a{
+    font-size: 30px;
+    padding: 17px;
+    color: #090909;
+
+}
+
+footer ul a:hover{
+    
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+/* media */
+
+
+@media (max-width: 991px) {
+  .navbar-collapse .nav-item .nav-link {
+    color: #ffffff;
+  }
+}
